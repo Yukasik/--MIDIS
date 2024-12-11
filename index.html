@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Кафедра математики и информатики_Усольцева_Несен_П-25</title>
+  </head>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+  const burger = document.querySelector('.burger');
+  const menu = document.querySelector('.header-menu');
+
+  burger.addEventListener('click', () => {
+    menu.classList.toggle('active');
+    burger.classList.toggle('active');
+  });
+});
+  </script>
+  <body>
+    <header>
+      <div class="header-wrap">
+        <a href="https://midis.ru/" class="header-logo">
+          <img src="img/logo.svg" alt="МИДИС" />
+          <p class="header-logo-text">Международный Институт Дизайна и Сервиса</p>
+        </a>
+        <button class="burger" aria-label="Меню">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="header-menu">
+          <ul class="header-list">
+            <li class="header-item">
+              <a href="https://midis.ru/abitur/" class="header-link">Абитуриенту</a>
+            </li>
+            <li class="header-item">
+              <a href="https://midis.ru/sveden/common/" class="header-link">Сведения об образовательной организации</a>
+            </li>
+          </ul>
+          
+           <div class="header-labels">
+          <div class="header-label">
+            <img src="img/age-limit.svg" alt="12+" />
+            <img
+              src="img/eye.svg"
+              alt="Версия сайта для слабовидящих"
+              class="header-label-eye"
+            />
+          </div>
+          <a class="header_phone-link" href="tel:+73512020073"
+            >+7 (351) 202-00-73</a
+          >
+        </div>
+        <div class="main-about-menu_head">
+          
+          <ul class="main-about-menu-items">
+            <li class="main-about-menu-item">
+              <a
+                href="https://midis.ru/bakalavriat/"
+                class="main-about-menu-link"
+                >Бакалавриат</a
+              >
+            </li>
+            <li class="main-about-menu-item">
+              <a
+                href="https://midis.ru/kolledzh/"
+                class="main-about-menu-link"
+                >Колледж</a
+              >
+            </li>
+            <li class="main-about-menu-item">
+              <a href="https://midis.ru/zaochka/" class="main-about-menu-link"
+                >Заочное</a
+              >
+            </li>
+            <li class="main-about-menu-item">
+              <a
+                href="https://midis.ru/stoimost-obucheniya/"
+                class="main-about-menu-link"
+                >Стоимость</a
+              >
+            </li>
+            <li class="main-about-menu-item">
+              <a
+                href="https://midis.ru/kak-postupit/"
+                class="main-about-menu-link"
+                >Как поступить</a
+              >
+            </li>
+            <li class="main-about-menu-item">
+              <a href="#" class="main-about-menu-link">Кафедры</a>
+            </li>
+            <li class="main-about-menu-item">
+              <a href="https://midis.ru/o-nas/" class="main-about-menu-link"
+                >О нас</a
+              >
+            </li>
+            <li class="main-about-menu-item">
+              <a
+                href="https://midis.ru/kontakty/"
+                class="main-about-menu-link"
+                >Контакты</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+        </nav>
+        
+      </div>
+    </header>
+
+    <main>
+      <div class="main-about">
+        <div class="main-about-wrap">
+          <div class="main-about-menu">
+            <img
+              src="img/search.svg"
+              alt="search"
+              class="main-about-menu-search"
+            />
+            <ul class="main-about-menu-items">
+              <li class="main-about-menu-item">
+                <a
+                  href="https://midis.ru/bakalavriat/"
+                  class="main-about-menu-link"
+                  >Бакалавриат</a
+                >
+              </li>
+              <li class="main-about-menu-item">
+                <a
+                  href="https://midis.ru/kolledzh/"
+                  class="main-about-menu-link"
+                  >Колледж</a
+                >
+              </li>
+              <li class="main-about-menu-item">
+                <a href="https://midis.ru/zaochka/" class="main-about-menu-link"
+                  >Заочное</a
+                >
+              </li>
+              <li class="main-about-menu-item">
+                <a
+                  href="https://midis.ru/stoimost-obucheniya/"
+                  class="main-about-menu-link"
+                  >Стоимость</a
+                >
+              </li>
+              <li class="main-about-menu-item">
+                <a
+                  href="https://midis.ru/kak-postupit/"
+                  class="main-about-menu-link"
+                  >Как поступить</a
+                >
+              </li>
+              <li class="main-about-menu-item">
+                <a href="#" class="main-about-menu-link">Кафедры</a>
+              </li>
+              <li class="main-about-menu-item">
+                <a href="https://midis.ru/o-nas/" class="main-about-menu-link"
+                  >О нас</a
+                >
+              </li>
+              <li class="main-about-menu-item">
+                <a
+                  href="https://midis.ru/kontakty/"
+                  class="main-about-menu-link"
+                  >Контакты</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="main-about-story">
+            <a href="https://midis.ru/" class="main-about-story-not_active"
+              >Главная</a
+            >
+            <p class="main-about-story-symbol">&gt;</p>
+            <a href="#" class="main-about-story-not_active">Кафедры</a>
+            <p class="main-about-story-symbol">&gt;</p>
+            <p class="main-about-story-active">
+              Кафедра математики и информатики
+            </p>
+          </div>
+          <h1 class="main-about-title" id="department">
+            Кафедра математики и информатики
+          </h1>
+          <div class="main-about-active">
+            <ul class="main-about-active-items">
+              <li class="main-about-active-item-actv">
+                <a href="#department">О кафедре</a>
+              </li>
+              <li class="main-about-active-item">
+                <a href="#achievements">Достижения</a>
+              </li>
+              <li class="main-about-active-item">
+                <a href="#partners">Партнеры </a>
+              </li>
+              <li class="main-about-active-item">
+                <a href="#teachers">Преподаватели</a>
+              </li>
+            </ul>
+          </div>
+          <div class="main-about-info">
+            <div class="main-about-info-img">
+              <img
+                src="img/КондаковСергейАлександрович.png"
+                alt="Кондаков Сергей Александрович"
+              />
+            </div>
+            <div class="main-about-info-description">
+              <div class="main-about-info-description-block-1">
+                <h2>Заведующий кафедрой</h2>
+                <h1>Кондаков Сергей Александрович</h1>
+                <p>+7 (351) 202-00-73</p>
+                <p>info@midis.ru</p>
+              </div>
+              <div class="main-about-info-description-block-2">
+                <h2>Адрес кафедры</h2>
+                <p>г. Челябинск, ул. Ворошилова, 12, 2 этаж, 241 кб.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-achievements">
+        <div class="main-achievements-wrap">
+          <h1 class="main-title" id="achievements">Достижения</h1>
+          <div class="main-achievements-card">
+            <div class="main-achievements-card-text">
+              <h2 class="main-subtitle">Активные студенты</h2>
+              <p class="main-text-card">
+                День за днем наши талантливые студенты не только успешно
+                осваивают учебную программу, но и активно участвуют в различных
+                конкурсах, олимпиадах и мероприятиях, организуемых как нашим
+                учебным заведением, так и за его пределами. Особое внимание
+                заслуживает участие студентов в создании различных сайтов и
+                приложений. Эти проекты не только демонстрируют технические
+                навыки студентов, но и вносят значительный вклад в развитие
+                информационной инфраструктуры нашего учебного заведения.
+              </p>
+            </div>
+            <div class="main-achievements-card-img">
+              <img src="img/achive1.svg" alt="active" />
+            </div>
+          </div>
+          <div class="main-achievements-card">
+            <div class="main-achievements-card-img">
+              <img src="img/achive2.svg" alt="active" />
+            </div>
+            <div class="main-achievements-card-text">
+              <h2 class="main-subtitle-card-right">Многочисленные победы</h2>
+              <p class="main-text-card-right">
+                Мы с гордостью отмечает выдающиеся достижения своих студентов и
+                преподавателей, которые неоднократно подтверждали высокий
+                уровень подготовки и профессионализм на различных конкурсах,
+                олимпиадах и научных мероприятиях.
+              </p>
+            </div>
+          </div>
+          <div class="main-achievements-card-more">
+            <h1>Хотите узнать больше?</h1>
+            <p>
+              Переходите в группу VK, где вас ждет много интересной информации!
+            </p>
+            <form
+              action="https://vk.com/midisit"
+              class="main-achievements-card-link"
+            >
+              <button>Перейти в VK</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="main-partners">
+        <div class="main-partners-wrap">
+          <h1 class="main-title" id="partners">Партнеры</h1>
+          <p class="main-partners-text">
+            Студенты непосредственно участвуют в реализации ресурсных проектов и
+            проведении широкомасштабных исследований для крупного российского
+            бизнеса.
+          </p>
+          <div class="main-partners-cards">
+            <div class="main-partners-card">
+              <img src="img/BackgroundКелан.svg" alt="Келан" />
+              <p>Разработка сайта-визитки для предприятия ООО ЗМК «Келан»</p>
+            </div>
+            <div class="main-partners-card">
+              <img src="img/BackgroundVK.svg" alt="VK" />
+              <p>Разработка VK Mini Apps</p>
+            </div>
+            <div class="main-partners-card">
+              <img
+                src="img/BackgroundИнновацииДетям.svg"
+                alt="Инновации Детям"
+              />
+              <p>3D образовательная игра «Ловец бабочек»</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-teachers">
+        <div class="main-teachers-wrap">
+          <h1 class="main-title" id="teachers">Преподаватели</h1>
+          <div class="main-teachers-cards">
+            <div class="main-teachers-card">
+              <img src="img/НикитаЧерепанов.svg" alt="Никита Черепанов" />
+              <h2>Никита Черепанов</h2>
+              <p>Преподаватель</p>
+            </div>
+            <div class="main-teachers-card">
+              <img src="img/РоманТарасенко.svg" alt="Роман Тарасенко" />
+              <h2>Роман Тарасенко</h2>
+              <p>Специалист-практик</p>
+            </div>
+            <div class="main-teachers-card">
+              <img src="img/ЛеонидЛапидус.svg" alt="Леонид Лапидус" />
+              <h2>Леонид Лапидус</h2>
+              <p>Специалист-практик</p>
+            </div>
+            <div class="main-teachers-card">
+              <img src="img/МихаилМажухин.svg" alt="Михаил Мажухин" />
+              <h2>Михаил Мажухин</h2>
+              <p>Преподаватель</p>
+            </div>
+            <div class="main-teachers-card">
+              <img src="img/СергейЧеботарев.svg" alt="Сергей Чеботарев" />
+              <h2>Сергей Чеботарев</h2>
+              <p>Доцент</p>
+            </div>
+            <div class="main-teachers-card">
+              <img src="img/ЛарисаОвсяницкая.svg" alt="Лариса Овсяницкая" />
+              <h2>Лариса Овсяницкая</h2>
+              <p>Доцент</p>
+            </div>
+            <div class="main-teachers-card">
+              <img src="img/ЮлияМухина.svg" alt="Юлия Мухина" />
+              <h2>Юлия Мухина</h2>
+              <p>Доцент</p>
+            </div>
+            <div class="main-teachers-card">
+              <img src="img/ЛилияХаятова.svg" alt="Лилия Хаятова" />
+              <h2>Лилия Хаятова</h2>
+              <p>Старший преподаватель</p>
+            </div>
+            <div class="main-teachers-card">
+              <img src="img/ЕленаПрилепина.png" alt="Елена Прилепина" />
+              <h2>Елена Прилепина</h2>
+              <p>Старший преподаватель</p>
+            </div>
+            <div class="main-teachers-card">
+              <img src="img/ИринаПисаренко.svg" alt="Ирина Писаренко" />
+              <h2>Ирина Писаренко</h2>
+              <p>Преподаватель</p>
+            </div>
+            <div class="main-teachers-card">
+              <img src="img/НадеждаИвинская.png" alt="Надежда Ивинская" />
+              <h2>Надежда Ивинская</h2>
+              <p>Доцент</p>
+            </div>
+            <div class="main-teachers-card">
+              <img src="img/ИванШиров.svg" alt="Иван Широв" />
+              <h2>Иван Широв</h2>
+              <p>Преподаватель</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-wrap">
+        <div class="footer-container">
+          <div class="footer-header">
+            <a class="footer-header-logo" href="https://midis.ru/">
+              <img src="img/logo.svg" alt="МИДИС" />
+              <p class="footer-header-logo-text">
+                Международный Институт Дизайна и Сервиса
+              </p>
+            </a>
+            <div class="footer-address">
+              <div class="footer-address-info">
+                <span>г. Челябинск, ул. Ворошилова, 12</span>
+                <a href="tel:+73512020073" class="footer-address-info-tel"
+                  >+7 (351) 202-00-73</a
+                >
+                <a href="mailto:info@midis.ru">info@midis.ru</a>
+              </div>
+              <div class="footer-socials">
+                <a
+                  class="footer-social"
+                  href="https://www.youtube.com/@MIDIS74"
+                >
+                  <img src="img/youtube.svg.svg" alt="YouTube" />
+                </a>
+                <a class="footer-social" href="https://vk.com/midis">
+                  <img src="img/vk.svg.svg" alt="VK" />
+                </a>
+                <a class="footer-social" href="https://t.me/officialMIDIS">
+                  <img src="img/tg.svg.svg" alt="TG" />
+                </a>
+              </div>
+              <div class="footer-btn">
+                <form
+                  action="https://midis.ru/payment/"
+                  class="footer-btn-link"
+                >
+                  <button>Оплата обучения</button>
+                </form>
+              </div>
+            </div>
+            <ul class="footer-list">
+              <li class="footer-list-item">
+                <a
+                  class="footer-link"
+                  href="https://midis.ru/upload/+ОБЪЯВЛЕНИЕ%20на%20конкурс%202024-2025.pdf"
+                >
+                  Конкурсный отбор/выборы на замещение вакантных <br />
+                  должностей научно-педагогических работников в 2024/2025
+                  учебном году
+                </a>
+              </li>
+              <li class="footer-list-item">
+                <a
+                  class="footer-link"
+                  href="https://midis.ru/upload/resize_cache/webp//licenziya_midis1.webp"
+                >
+                  Государственная лицензия
+                </a>
+              </li>
+              <li class="footer-list-item">
+                <a
+                  class="footer-link"
+                  href="https://midis.ru/upload/resize_cache/webp//Svidetelystvo_ob_akkredit_MIDiS_page-0001.webp"
+                >
+                  Свидетельство о государственной аккредитации
+                </a>
+              </li>
+              <li class="footer-list-item">
+                <a
+                  class="footer-link"
+                  href="https://midis.ru/upload/Obrazovatelynoe_kreditovanie_SPO.pdf"
+                >
+                  Образовательное кредитование СПО
+                </a>
+              </li>
+              <li class="footer-list-item">
+                <a
+                  class="footer-link"
+                  href="https://midis.ru/protivodeystvie-korruptsii/"
+                >
+                  Противодействие коррупции
+                </a>
+              </li>
+              <li class="footer-list-item">
+                <a
+                  class="footer-link"
+                  href="https://midis.ru/profilaktika-ekstremizma-i-terrorizma/"
+                >
+                  Профилактика экстремизма и терроризма
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-body">
+            <div class="footer-items">
+              <div class="footer-column">
+                <div class="footer-row">
+                  <ul class="footer-list">
+                    <li class="footer-list-item">
+                      <a
+                        class="footer-link-title"
+                        href="https://midis.ru/karera-vypusknikov/"
+                        >Достижения</a
+                      >
+                    </li>
+                    <li class="footer-list-item">
+                      <a
+                        class="footer-link-title"
+                        href="https://midis.ru/novosti/"
+                        >События</a
+                      >
+                    </li>
+                    <li class="footer-list-item">
+                      <a
+                        class="footer-link-title"
+                        href="https://midis.ru/studencheskaya-zhizn/"
+                        >Студенческая жизнь</a
+                      >
+                    </li>
+                    <li class="footer-list-item">
+                      <a
+                        class="footer-link-title"
+                        href="https://midis.ru/midis-history/"
+                        >О нас
+                      </a>
+                    </li>
+                    <li class="footer-list-item">
+                      <a
+                        class="footer-link-title"
+                        href="https://midis.ru/kontakty/"
+                        >Контакты</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="accordion-header">
+                  <p class="accordion-title">Программы</p>
+                </div>
+                <div class="accordion-body">
+                  <ul class="footer-list">
+                    <li class="footer-list-item">
+                      <a
+                        class="footer-link"
+                        href="https://midis.ru/bakalavriat/"
+                        >Бакалавриат</a
+                      >
+                    </li>
+                    <li class="footer-list-item">
+                      <a class="footer-link" href="https://midis.ru/kolledzh/"
+                        >Колледж</a
+                      >
+                    </li>
+                    <li class="footer-list-item">
+                      <a class="footer-link" href="https://midis.ru/zaochka/"
+                        >Заочка</a
+                      >
+                    </li>
+                    <li class="footer-list-item">
+                      <a
+                        class="footer-link"
+                        href="https://midis.ru/elektivnye-kursy/"
+                        >Элективные курсы</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="accordion-header">
+                <p class="accordion-title">Абитуриентам</p>
+                <div class="accordion-body">
+                  <ul class="footer-list">
+                    <li class="footer-list-item">
+                      <a
+                        class="footer-link"
+                        href="https://midis.ru/kak-postupit/"
+                        >Как поступить</a
+                      >
+                    </li>
+                    <li class="footer-list-item">
+                      <a
+                        class="footer-link"
+                        href="https://midis.ru/podgotovitelnye-kursy-po-risunku-i-zhivopisi/"
+                        >Подготовительные курсы по рисунку и живописи</a
+                      >
+                    </li>
+                    <li class="footer-list-item">
+                      <a
+                        class="footer-link"
+                        href="https://midis.ru/podgotovitelnye-kursy-po-veb-dizaynu/"
+                        >Подготовительные курсы по веб-дизайну</a
+                      >
+                    </li>
+                    <li class="footer-list-item">
+                      <a
+                        class="footer-link"
+                        href="https://midis.ru/proforientatsiya/"
+                        >Профориентация</a
+                      >
+                    </li>
+                    <li class="footer-list-item">
+                      <a
+                        class="footer-link"
+                        href="https://minobrnauki.gov.ru/press-center/news/novosti-ministerstva/50667/"
+                        >Поступи онлайн</a
+                      >
+                    </li>
+                    <li class="footer-list-item">
+                      <a
+                        class="footer-link"
+                        href="https://midis.ru/stoimost-obucheniya/"
+                        >Стоимость обучения</a
+                      >
+                    </li>
+                    <li class="footer-list-item">
+                      <a
+                        class="footer-link"
+                        href="http://midis.ru/upload/doc/Grazhdanam_Donecka_i_Luganska.pdf"
+                        >Гражданам РФ, Украины, Донецкой и Луганской народных
+                        республик, вынужденно покинувших территорию республик и
+                        прибывших на территорию РФ</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="accordion-header">
+                <p class="accordion-title">Студентам</p>
+                <div class="accordion-body">
+                  <ul class="footer-list">
+                    <li class="footer-list-item">
+                      <a class="footer-link" href="https://portal.midis.info/"
+                        >Электронно-информационная образовательная среда</a
+                      >
+                    </li>
+                    <li class="footer-list-item">
+                      <a class="footer-link" href="https://trudvsem.ru/"
+                        >Международная практика</a
+                      >
+                    </li>
+                    <li class="footer-list-item">
+                      <a class="footer-link" href="https://trudvsem.ru/"
+                        >Трудоустройство</a
+                      >
+                    </li>
+                    <li class="footer-list-item">
+                      <a
+                        class="footer-link"
+                        href="https://midis.ru/otdel-praktiki-i-trudoustroystva/"
+                        >Отдел практики и трудоустройства</a
+                      >
+                    </li>
+                    <li class="footer-list-item">
+                      <a
+                        class="footer-link"
+                        href="https://midis.ru/dlya-inostrannykh-studentov/"
+                        >Для иностранных студентов</a
+                      >
+                    </li>
+                    <li class="footer-list-item">
+                      <a
+                        class="footer-link"
+                        href="https://midis.ru/proforientatsiya/"
+                        >Профессиональное самоопределение обучающихся</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="footer-xpage">
+              <div class="footer-copyright">
+                Копирование информации с сайта разрешено только с письменного
+                согласия администрации сайта
+              </div>
+              <a class="foote-logo-xpage" href="https://midis.ru/#"
+                ><img src="img/logo-xpage.svg" alt="alt"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

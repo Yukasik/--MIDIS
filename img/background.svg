@@ -1,0 +1,35 @@
+<svg width="1397" height="902" viewBox="0 0 1397 902" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_39_1536)">
+<rect width="1397" height="902" rx="40" fill="url(#paint0_radial_39_1536)"/>
+<g style="mix-blend-mode:soft-light" opacity="0.42">
+<path d="M687.511 267.882L451.066 -87H557.592L687.511 107.255V267.882Z" fill="black" fill-opacity="0.48"/>
+<path d="M546.504 411.01H451.637V300.023L546.504 157.353V411.01Z" fill="black" fill-opacity="0.48"/>
+<path d="M547.037 765.358L310.631 410.476H417.156L547.037 604.731V765.358Z" fill="black" fill-opacity="0.48"/>
+<path d="M923.383 267.882L686.977 -87H793.502L923.383 107.255V267.882Z" fill="black" fill-opacity="0.48"/>
+<path d="M782.414 411.01H687.547V300.023L782.414 157.353V411.01Z" fill="black" fill-opacity="0.48"/>
+<path d="M782.947 765.358L546.541 410.476H653.067L782.947 604.731V765.358Z" fill="black" fill-opacity="0.48"/>
+<path d="M641.981 908.524H547.113V797.499L641.981 654.83V908.524Z" fill="black" fill-opacity="0.48"/>
+<path d="M1159.33 267.882L922.887 -87H1029.41L1159.33 107.255V267.882Z" fill="black" fill-opacity="0.48"/>
+<path d="M1018.32 411.01H923.457V300.023L1018.32 157.353V411.01Z" fill="black" fill-opacity="0.48"/>
+<path d="M1018.9 765.358L782.453 410.476H889.017L1018.9 604.731V765.358Z" fill="black" fill-opacity="0.48"/>
+<path d="M877.93 908.524H783.062V797.499L877.93 654.83V908.524Z" fill="black" fill-opacity="0.48"/>
+<path d="M1395.28 267.882L1158.84 -87H1265.36L1395.28 107.255V267.882Z" fill="black" fill-opacity="0.48"/>
+<path d="M1254.28 411.01H1159.41V300.023L1254.28 157.353V411.01Z" fill="black" fill-opacity="0.48"/>
+<path d="M1632.56 267.882L1396.12 -87H1502.64L1632.56 107.255V267.882Z" fill="black" fill-opacity="0.48"/>
+<path d="M1491.56 411.01H1396.69V300.023L1491.56 157.353V411.01Z" fill="black" fill-opacity="0.48"/>
+<path d="M1254.81 765.358L1018.36 410.476H1124.93L1254.81 604.731V765.358Z" fill="black" fill-opacity="0.48"/>
+<path d="M1113.8 908.524H1018.94V797.499L1113.8 654.83V908.524Z" fill="black" fill-opacity="0.48"/>
+<path d="M1490.72 765.358L1254.31 410.476H1360.84L1490.72 604.731V765.358Z" fill="black" fill-opacity="0.48"/>
+<path d="M1349.75 908.524H1254.88V797.499L1349.75 654.83V908.524Z" fill="black" fill-opacity="0.48"/>
+</g>
+</g>
+<defs>
+<radialGradient id="paint0_radial_39_1536" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(309.279 38.0001) rotate(47.26) scale(1682.23 2770.15)">
+<stop stop-color="#0052B7"/>
+<stop offset="1" stop-color="#00AFBE"/>
+</radialGradient>
+<clipPath id="clip0_39_1536">
+<rect width="1397" height="902" rx="40" fill="white"/>
+</clipPath>
+</defs>
+</svg>
